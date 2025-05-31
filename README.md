@@ -25,9 +25,12 @@ El archivo `docker-compose.yml` junto al `dockerfile` permiten levantar el proye
 
 	```git clone https://github.com/jesus24e/teclados-api.git proyectoapiteclados```
 
-- levante los contenedores en docker desde la carpeta del proyecto
+	al clonarlo todos los archivos se encontraran dentro de una nueva carpeta llamada `proyectoapiteclados`
 
-	```docker compose up```
+- levante los contenedores en docker desde la carpeta del proyecto
+	- `cd proyectoapiteclados`
+   
+	- ```docker compose up```
 
 - acceda al api rest
 
