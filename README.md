@@ -23,7 +23,7 @@ El archivo `docker-compose.yml` junto al `dockerfile` permiten levantar el proye
 
 - clone el repositorio:
 
-	```git clone https://github.com/jesus24e/teclados-api.git proyectoapiteclados```
+	```git clone https://github.com/jesus24e/API-REST-teclados.git proyectoapiteclados```
 
 	al clonarlo todos los archivos se encontraran dentro de una nueva carpeta llamada `proyectoapiteclados`
 
