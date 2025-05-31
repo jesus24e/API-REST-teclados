@@ -23,18 +23,24 @@ El archivo `docker-compose.yml` junto al `dockerfile` permiten levantar el proye
 
 - clone el repositorio:
 
-	```git clone https://github.com/jesus24e/API-REST-teclados.git proyectoapiteclados```
+	```
+	git clone https://github.com/jesus24e/API-REST-teclados.git proyectoapiteclados
+	```
 
 	al clonarlo todos los archivos se encontraran dentro de una nueva carpeta llamada `proyectoapiteclados`
 
 - levante los contenedores en docker desde la carpeta del proyecto
-	- `cd proyectoapiteclados`
-   
-	- ```docker compose up```
+	```
+  	cd proyectoapiteclados
+ 
+  	docker-compose up
+  	```
 
 - acceda al api rest
 
-	```http://localhost:8081/api/v1/teclados/```
+	```
+	http://localhost:8081/api/v1/teclados/
+	```
 
 ### pruebas de funcionalidad del api-rest con postman:
 
